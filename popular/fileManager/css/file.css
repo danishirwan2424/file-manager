@@ -1,0 +1,421 @@
+body {
+  height: 100vh;
+  padding: 0;
+  margin: 0;
+  background-color: #ffffff;
+  display: block;
+  justify-content: center;
+  align-items: center;
+}
+
+.body-2 {
+  background-color: #ffffff;
+}
+.button-container {
+  background-color: #0056b3;
+  width: 650px;
+  display: flex;
+  justify-content: left;
+  margin-bottom: 10px;
+}
+
+/* Hamburger Menu Styles */
+.hamburger-menu {
+  position: absolute;
+  top: 15px; /* Adjust top position as needed */
+  left: 20px; /* Adjust left position as needed */
+}
+
+.hamburger-menu-toggle {
+  background: #007bff;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-size: 24px;
+  cursor: pointer;
+  padding: 10px;
+  transition: background-color 0.3s;
+}
+
+.hamburger-menu-toggle:hover {
+  background-color: #0056b3;
+}
+
+.hamburger-menu-content {
+  display: none;
+  position: absolute;
+  top: 50px;
+  left: 0;
+  background: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+  min-width: 200px;
+}
+
+.hamburger-menu-content button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  border: none;
+  background: #f8f9fa;
+  color: #333;
+  text-align: left;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s;
+  font-family: monospace;
+}
+
+.hamburger-menu-content button:hover {
+  background: #e2e6ea;
+}
+
+/* Toolbar */
+.toolbar {
+  margin-top: 9px;
+  display: flex;
+  justify-content: left;
+  padding: 10px;
+  gap: 10px; /* Adjusted gap to 10px */
+  height: 40px;
+  background-color: #ffffff;
+  color: white;
+  border-bottom: 1px solid #ffffff;
+}
+
+.toolbar button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: #ffffff;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s, transform 0.5s;
+}
+
+.toolbar #uploadFolderButton {
+  margin-left: 100px;
+}
+
+.toolbar button:hover {
+  background-color: #000000;
+  transform: scale(1.05);
+  color: white;
+}
+
+/* delete Done button styles */
+    #doneButton {
+      display: none;
+      background-color: red;
+    }
+    #doneButton:hover {
+      display: none;
+      background-color: black;
+      color: white;
+    }
+
+
+
+/* Gallery */
+/* Gallery for PC screens */
+.gallery {
+  display: flex;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  gap: 10px; /* Add this line to create a 20px gap between items */
+  flex-wrap: wrap;
+  margin-bottom: 40px; /* Increased value to add more scroll space at the bottom */
+  overflow-x: hidden; /* Optional: hides the horizontal scrollbar */
+  overflow-y: auto; /* Adds vertical scrollbar when content overflows */
+  padding-bottom: 100px; /* Increase this value to add more scroll space at the bottom */
+}
+
+.gallery-item {
+  margin-left: 30px;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  border: 1px solid #ffffff00; /* Optional: Add a border to make items stand out */
+  border-radius: 8px; /* Optional: Add rounded corners */
+  cursor: pointer; /* Show pointer cursor on hover */
+  width: 160px;
+  min-height: 190px;
+  position: relative; /* or adjust according to your layout needs */
+  z-index: 10; /* Lower than the footer */ 
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.gallery-item:hover {
+  background-color: #0000002f;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  border: 1px solid #ffffff00; /* Optional: Add a border to make items stand out */
+  border-radius: 8px; /* Optional: Add rounded corners */
+  padding-left: 5px;
+  padding-right: 5px;
+  cursor: pointer; /* Show pointer cursor on hover */
+}
+
+.gallery-image {
+  width: 80%;
+  height: auto;
+  cursor: pointer;
+}
+
+.gallery-item img {
+  max-width: 80%;
+  height: auto;
+  border-radius: 0px;
+}
+
+.gallery-item p {
+  font-family: monospace;
+  margin-top: 7px;
+  font-size: 15px;
+  color: #000000;
+  overflow: hidden; /* Hides any overflow text */
+  white-space: nowrap; /* Prevents text from wrapping to the next line */
+  text-overflow: ellipsis; /* Adds an ellipsis (...) at the end of the truncated text */
+  max-width: 130px; /* Set the maximum width as needed */
+  min-width: 100%;
+}
+
+.gallery-item img, .gallery-item video {
+  width: 80%;
+  height: auto;
+  display: block;
+}
+
+.gallery-item .file-icon {
+  width: 80%;
+  height: 80%;
+  background: url('imageIcons/file.png') no-repeat center center;
+  background-size: contain;
+}
+
+.gallery-item .checkbox {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  display: none; /* Initially hidden */
+  width: 15px; /* Increased size */
+  height: 15px; /* Increased size */
+}
+
+.checkbox {
+  display: none;
+}
+
+.file-icon {
+  width: 80%;
+  height: 100%;
+  background-size: cover;
+}
+
+.file-icon img {
+  width: 80%;
+  height: auto;
+}
+
+/* Popup container */
+.image-popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.8);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+
+/* Popup content */
+.popup-content {
+  position: relative;
+  max-width: 90%;
+  max-height: 90%;
+}
+
+/* Close button */
+.popup-close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 24px;
+  color: #fff;
+  cursor: pointer;
+}
+
+/* Image inside the popup */
+#popupImage {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+/* Back button styles */
+.back-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.back-button img {
+  width: 34px; /* Adjust size as needed */
+  height: auto;
+}
+
+/* Context Menu Style */
+.context-menu {
+  position: absolute;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  box-shadow: 0px 0px 10px rgba(0,0,0,0.2);
+  z-index: 1000;
+}
+.context-menu ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.context-menu li {
+  padding: 10px;
+  cursor: pointer;
+}
+.context-menu li:hover {
+  background-color: #eee;
+}
+
+
+/* sort */ 
+.dropdown-content {
+  z-index: 1;
+  border-radius: 5px;
+  padding: 10px 0;
+}
+/* Dropdown Button */
+.dropdown {
+  top: 20px;
+  right: 90px;
+}
+.btn-secondary { /* sort button */ 
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: 0.5s;
+  min-width: 100px;
+  min-height: 20px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  display: inline;
+}
+
+/* Dropdown Menu */
+.dropdown-menu {
+  display: none;
+  position: absolute;
+  background-color: #f8f9fa;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  border-radius: 5px;
+  padding: 10px 0;
+  min-width: 100px;
+  font-family: monospace;
+  text-align: center;
+}
+.dropdown-menu a {
+  color: black;
+  padding: 10px 20px;
+  text-decoration: none;
+  display: block;
+  font-size: 16px;
+  align-items: center;
+}
+.dropdown-menu a:hover {
+  background-color: #d3d3d3;
+}
+/* Show the dropdown menu on button click */
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+/* Add a transition for smooth dropdown */
+.dropdown-menu {
+  transition: all 0.3s ease;
+}
+
+@media (max-width: 1700px) {
+  
+/* Head */
+.head {
+  height: 10vh;
+  font-size: 20px;
+  text-align: center;
+  padding: 20px;
+  background-color: rgb(0, 0, 0);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: monospace;
+}
+
+/* Gallery */
+.gallery {
+  align-items: left;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(190px, 1fr));
+  gap: 5px; /* Add this line to create a 20px gap between items */
+  flex-wrap: wrap;
+  padding-bottom: 100px; /* Increase this value to add more scroll space at the bottom */
+}
+
+.gallery-item {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  
+  border: 1px solid #ffffff; /* Optional: Add a border to make items stand out */
+  border-radius: 8px; /* Optional: Add rounded corners */
+  padding: 10px; /* Optional: Add padding inside items */
+  cursor: pointer; /* Show pointer cursor on hover */
+  width: 150px;
+}
+
+.gallery-item img {
+  max-width: 70%;
+  height: auto;
+  border-radius: 0px;
+}
+.gallery-item:hover {
+  background-color: #0000001f;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  border: 1px solid #ffffff; /* Optional: Add a border to make items stand out */
+  border-radius: 8px; /* Optional: Add rounded corners */
+  padding: 10px; /* Optional: Add padding inside items */
+  cursor: pointer; /* Show pointer cursor on hover */
+}
+.gallery-item p {
+  font-family: monospace;
+  margin-top: 10px;
+  font-size: 13px;
+  color: #000000;
+  word-wrap: break-word; /* Ensures long names are wrapped */
+}
+}

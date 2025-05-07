@@ -1,0 +1,71 @@
+Target Directory: C:/xampp/htdocs/MyMCE/file-web/CDN/
+Files Array: Array
+(
+    [fileInput] => Array
+        (
+            [name] => Array
+                (
+                    [0] => DANISH IRWAN IMAGE.jpg
+                    [1] => MyPic.jpg
+                    [2] => Untitled (1).jpg
+                    [3] => WhatsApp Image 2024-06-10 at 15.30.34.jpeg
+                )
+
+            [full_path] => Array
+                (
+                    [0] => MyPic/DANISH IRWAN IMAGE.jpg
+                    [1] => MyPic/MyPic.jpg
+                    [2] => MyPic/Untitled (1).jpg
+                    [3] => MyPic/WhatsApp Image 2024-06-10 at 15.30.34.jpeg
+                )
+
+            [type] => Array
+                (
+                    [0] => image/jpeg
+                    [1] => image/jpeg
+                    [2] => image/jpeg
+                    [3] => image/jpeg
+                )
+
+            [tmp_name] => Array
+                (
+                    [0] => C:\xampp\tmp\php7D70.tmp
+                    [1] => C:\xampp\tmp\php7D71.tmp
+                    [2] => C:\xampp\tmp\php7D72.tmp
+                    [3] => C:\xampp\tmp\php7D73.tmp
+                )
+
+            [error] => Array
+                (
+                    [0] => 0
+                    [1] => 0
+                    [2] => 0
+                    [3] => 0
+                )
+
+            [size] => Array
+                (
+                    [0] => 24609
+                    [1] => 171003
+                    [2] => 135292
+                    [3] => 88649
+                )
+
+        )
+
+)
+
+Extracted Folder Name: tmp
+Folder Path: C:/xampp/htdocs/MyMCE/file-web/CDN/tmp
+Processing file: DANISH IRWAN IMAGE.jpg
+Temporary Path: C:\xampp\tmp\php7D70.tmp
+Target Path: C:/xampp/htdocs/MyMCE/file-web/CDN/tmp/DANISH IRWAN IMAGE.jpg
+Processing file: MyPic.jpg
+Temporary Path: C:\xampp\tmp\php7D71.tmp
+Target Path: C:/xampp/htdocs/MyMCE/file-web/CDN/tmp/MyPic.jpg
+Processing file: Untitled (1).jpg
+Temporary Path: C:\xampp\tmp\php7D72.tmp
+Target Path: C:/xampp/htdocs/MyMCE/file-web/CDN/tmp/Untitled (1).jpg
+Processing file: WhatsApp Image 2024-06-10 at 15.30.34.jpeg
+Temporary Path: C:\xampp\tmp\php7D73.tmp
+Target Path: C:/xampp/htdocs/MyMCE/file-web/CDN/tmp/WhatsApp Image 2024-06-10 at 15.30.34.jpeg

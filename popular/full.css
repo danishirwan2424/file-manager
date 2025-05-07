@@ -1,0 +1,1519 @@
+/* Global Styles */
+body {
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  background-color: #ffffff;
+  display: block;
+  justify-content: center;
+  align-items: center;
+}
+
+.body-2 {
+  height: 100%;
+  width: 100%;
+  background-color: #ffffff;
+}
+
+.table-container {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.table-header, .table-row {
+    display: flex;
+    width: 100%;
+}
+
+.table-header {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+
+.table-header-cell, .table-cell {
+    flex: 1;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    box-sizing: border-box;
+}
+
+.table-row {
+    cursor: pointer;
+}
+
+.table-row:hover {
+    background-color: #f9f9f9;
+}
+
+/* Editor Styles */
+#editor {
+  margin-top: 70px;
+  margin-bottom: 50px;
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 0px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Container Styles */
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; 
+  height: 100vh;
+  padding: 10px; 
+  box-sizing: border-box; 
+}
+
+.div-2, .file-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.edit-container {
+  background-color: rgb(202, 202, 202);
+  padding: 10px;
+  height: 50%;
+  width: 70%;
+  border-radius: 5px;
+  border: 1px solid black;
+  margin-bottom: 20px;
+  z-index: 1;
+}
+.overlay {
+  position: absolute; /* Positions the overlay relative to the container */
+  margin-top: 370px; /* Aligns overlay to the top */
+  margin-left: 0px; /* Aligns overlay to the left */
+  width: 67.9%; /* Full width of the parent */
+  height: 39px; /* Full height of the parent */
+  border-radius: 0px 0px 20px 20px;
+  background-color: rgb(255, 255, 255); /* Semi-transparent overlay */
+  color: white;
+  display: flex;
+  justify-content: center; /* Centers content horizontally */
+  align-items: center; 
+  z-index: 2;
+}
+
+.edit-options button {
+  display: block;
+  width: 100%;
+  border: none;
+  background: none;
+  text-align: left;
+}
+
+/* Image Gallery Styles */
+.image-gallery-content {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(50px, 1fr));
+  padding-left: 30px;
+  padding-right: 40px;
+  background-color: #ffffff;
+  box-shadow: 0 4px 8px rgb(0, 0, 0);
+  max-height: 40%;
+  overflow-y: auto;
+  border-radius: 8px;
+  margin-top: 10px;
+  transition: opacity 0.5s ease, visibility 0s 0.5s;
+}
+
+.image-container {
+  background-color: #ffffff;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  text-align: center;
+  transition: transform 0.3s;
+}
+
+.image-container:hover {
+  transform: scale(1.02);
+}
+
+.gallery-image {
+  width: 100%;
+  height: 10px; 
+  object-fit: cover; 
+  background-color: rgba(0, 0, 0, 0);
+}
+
+/* Image Gallery Modal Styles */
+#imageGallery {
+  display: none;
+  position: fixed;
+  top: 10px;
+  left: 290px;
+  width: 70%;
+  height: 80%; 
+   background-color: #ff00d000;
+  z-index: 9999;
+  overflow: auto;
+}
+
+#imageGalleryContent {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  gap: 30px;
+  padding-top: 10px;
+  padding-bottom: 60px; 
+  background-color: #ffffff;
+  background: linear-gradient(145deg, #ffffff, #f1f1f1);
+  box-shadow: 
+        0px 5px 40px rgba(0, 0, 0, 0.151), 
+        inset 0px 5px 20px rgba(0, 0, 0, 0.381); 
+  border: 1px solid rgb(154, 154, 154);
+  border-radius: 10px;
+  margin-top: 80px;
+  max-height: calc(90vh - 430px); 
+  max-width: 100%;
+  overflow-y: auto;
+  transition: opacity 0.5s ease, visibility 0s 0.5s;
+  animation: fadeIn 0.5s ease-in-out;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(0px); 
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0); 
+  }
+}
+#imageGalleryContent::-webkit-scrollbar {
+  width: 12px; 
+}
+
+#imageGalleryContent::-webkit-scrollbar-track {
+  background: rgba(255, 255, 255, 0.1); 
+  backdrop-filter: blur(10px); 
+  border-radius: 10px; 
+  border: 1px solid rgba(135, 135, 135, 0.177); 
+}
+
+#imageGalleryContent::-webkit-scrollbar-thumb {
+  background: rgba(216, 216, 216, 0.456); 
+  border-radius: 10px;
+  backdrop-filter: blur(10px); 
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); 
+  border: 2px solid rgba(0, 0, 0, 0.2); 
+}
+
+#imageGalleryContent::-webkit-scrollbar-thumb:hover {
+  background: rgba(255, 255, 255, 0.4); 
+}
+
+#closeImageGallery {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  background-color: rgba(0, 255, 4, 0);
+  color: rgb(0, 0, 0);
+  border: 2px solid rgb(218, 218, 218);
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+#closeImageGallery:hover {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+  border: 2px solid rgb(0, 0, 0);
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+ Folder and File Icon Styles */
+.folder-icon {
+  margin-top: 20px;
+  width: 100%;
+  height: 100px;
+  background: url('fileManager/imageIcons/folder.png') no-repeat center center;
+  background-size: contain;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none; 
+}
+/* PDF Icon */
+.pdf-icon {
+  width: 100%;
+  height: 100px;
+  background: url('fileManager/imageIcons/pdfFILE.png') no-repeat center center;
+  background-size: contain;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+}
+
+/* TXT Icon */
+.txt-icon {
+  width: 100%;
+  height: 100px;
+  background: url('fileManager/imageIcons/txt.png') no-repeat center center;
+  background-size: contain;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none; /* Remove underline */
+}
+
+/* XLSX Icon */
+.xlsx-icon {
+  width: 100%;
+  height: 100px;
+  background: url('fileManager/imageIcons/xlsx.png') no-repeat center center;
+  background-size: contain;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none; 
+}
+.mp3-icon {
+  width: 100%;
+  height: 100px;
+  background: url('fileManager/imageIcons/mp3\ \(1\).png') no-repeat center center;
+  background-size: contain;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none; 
+}
+.mp4-icon {
+  width: 100%;
+  height: 100px;
+  background: url('fileManager/imageIcons/mp4.png') no-repeat center center;
+  background-size: contain;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none; 
+}
+.file-icon {
+  width: 100%;
+  height: 100px;
+  background: url('fileManager/imageIcons/random.png') no-repeat center center;
+  background-size: contain;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+}
+.docx-icon {
+  width: 65%;
+  height: 100px;
+  background: url('fileManager/imageIcons/doc.png') no-repeat center center;
+  background-size: contain;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+}
+
+.pdf-icon,
+ .txt-icon,
+ .xlsx-icon,
+ .folder-icon,
+ .mp3-icon,
+ .mp4-icon,
+ .file-icon {
+  min-width: 120px;
+ }
+
+.file-icon a {
+  margin-bottom: 20px;
+  min-width: 150px;
+  height: 100px;
+}
+.icon-button {
+  background: none;
+  border: none;
+  color: #333;
+  cursor: pointer;
+  font-size: 16px;
+  padding: 5px;
+  margin: 5px;
+  transition: color 0.3s;
+}
+.icon-buttons {
+  background-color: rgb(255, 255, 255); 
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  margin-top: 10px; 
+}
+
+.inline-droppable-div {
+  display: inline-block;
+  border: 1px solid #000;
+  padding: 10px;
+  min-height: 50px;
+  min-width: 100px;
+  resize: both; 
+  overflow: auto; 
+  vertical-align: middle; 
+} 
+/* Style for images and file icons */
+.file-container img,
+.file-container {
+  max-width: 100%;
+  height: 80px; 
+  object-fit: contain; 
+  margin-bottom: 10px; 
+}
+/* Container for each file item */
+.file-container {
+  display: grid;
+  grid-template-rows: auto 1fr auto; 
+  align-items: center;
+  justify-items: center;
+  border: 1px solid #c1c1c1;
+  background-color: rgb(255, 255, 255);
+  border-radius: 8px;
+  padding-right: 10px;
+  padding-left: 10px;
+  padding-top: 10px;
+  height: 180px; 
+  width: 150px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0);
+  overflow: hidden;
+  transition: opacity 0.3s ease, visibility 0s 0.3s;
+  animation: fadeIn 0.5s ease-in-out;
+}
+.back-button {
+  display: grid;
+  grid-template-rows: auto 1fr auto; 
+  align-items: center;
+  justify-items: center;
+  border: 1px solid #c1c1c100;
+  background-color: rgba(255, 255, 255, 0);
+  border-radius: 8px;
+  padding-right: 10px;
+  padding-left: 10px;
+  padding-top: 10px;
+  height: 180px; 
+  width: 150px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0);
+  overflow: hidden;
+}
+.back-button img {
+  display: block; 
+  width: 70px;
+  cursor: pointer;
+  margin-top: 70px;
+}
+.file-container:hover {
+  display: grid;
+  grid-template-rows: auto 1fr auto; 
+  align-items: center;
+  justify-items: center;
+  border: 1.5px solid #0000006e;
+  background-color: rgb(255, 255, 255);
+  border-radius: 8px;
+  box-shadow: 
+    inset 0 4px 8px rgba(0, 0, 0, 0.422); 
+}
+
+
+.file-container .file-name {
+  margin: 10px 0;
+  text-align: center;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.file-container .icon-buttons {
+  display: flex;
+  gap: 10px; 
+}
+
+.file-container .icon-buttons button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 16px; 
+}
+
+.file-container .icon-buttons button:hover {
+  color: #007bff; 
+}
+
+/* Container for all file items */
+.file-container-wrapper {
+  display: flex;
+  flex-direction: column; 
+  align-items: center; 
+  gap: 20px; 
+  padding: 20px;
+  width: 100%;
+}
+
+/* File name styling */
+.file-name {
+  height: 20px;
+  display: left;
+  justify-content: center;
+  align-items: left;
+  text-align: left;
+  overflow: hidden;
+  white-space: nowrap; 
+  text-overflow: ellipsis; 
+  width: 100%;
+}
+
+.file-name p {
+  margin: 0;
+  padding: 0 10px; 
+  font-family: monospace;
+    margin-top: 10px;
+    font-size: 20px;
+    color: #000000;
+    white-space: nowrap; 
+    overflow: hidden;    
+    text-overflow: ellipsis;
+    width: 150px; 
+}
+
+/* Container for buttons */
+.icon-buttons {
+  display: flex;
+  gap: 10px; 
+  justify-content: center;
+  align-self: baseline; 
+  margin-top: auto; 
+}
+
+/* Style for individual buttons */
+.icon-buttons button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  color: #007bff; 
+}
+
+.icon-buttons button:hover {
+  color: #0056b3;
+}
+/* Search Bar Styles */
+.search-bar {
+  position: absolute;
+  top: 20px;
+  right: 200px; 
+  background-color: rgba(0, 0, 0, 0); 
+  color: rgb(0, 0, 0);
+  border: 2px solid rgb(218, 218, 218); 
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 16px; 
+  cursor: pointer; 
+  width: 200px; 
+}
+.search-bar:hover {
+  position: absolute;
+  top: 20px;
+  right: 200px; 
+  background-color: rgba(0, 0, 0, 0); 
+  color: rgb(0, 0, 0);
+  border: 2px solid rgb(154, 153, 153); 
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 16px; 
+  cursor: pointer; 
+  width: 200px; 
+}
+/* Style for the refresh button */
+#refresh {
+  position: absolute;
+  top: 20px;
+  right: 430px;
+  background-color: rgba(0, 0, 0, 0); 
+  color: rgb(0, 0, 0); 
+  border: 2px solid rgb(218, 218, 218);
+  border-radius: 5px; 
+  padding: 10px; 
+  font-size: 16px; 
+  cursor: pointer; 
+  width: 50px; 
+  transition: background-color 0.3s, border-color 0.3s; 
+}
+
+/* Hover effect for the refresh button */
+#refresh:hover {
+  background-color: rgb(0, 0, 0); 
+  color: white; 
+  border: 2px solid rgb(0, 0, 0); 
+}
+
+/* Hover effect specifically for the icon inside the button */
+#refresh:hover i {
+  color: white; 
+}
+
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #ffffff;
+  min-width: 50px;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  border-radius: 5px;
+  padding: 10px 0;
+}
+/* Dropdown Button */
+.dropdown {
+  position: absolute;
+  top: 20px;
+  right: 90px;
+}
+
+.btn-secondary { 
+  color: rgb(0, 0, 0); 
+  border: 2px solid rgb(218, 218, 218); 
+  background-color: rgba(255, 0, 0, 0);
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: 0.5s;
+  min-width: 100px;
+  min-height: 20px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  display: inline;
+}
+
+.btn-secondary:hover {
+  color: rgb(255, 255, 255); 
+  background-color: black;
+  border: 2px solid rgb(0, 0, 0); 
+}
+.sortImg {
+  width: 19px;
+  height: 19px;
+  margin-right: 5px;
+  vertical-align: middle; 
+}
+/* Change image on hover */
+.btn-secondary:hover .sortImg {
+  content: url('fileManager/imageIcons/sortChange.png');
+}
+/* Dropdown Menu */
+.dropdown-menu {
+  display: none;
+  position: absolute;
+  background-color: #f8f9fa;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  border-radius: 5px;
+  padding: 10px 0;
+  min-width: 100px;
+  font-family: monospace;
+  text-align: center;
+}
+
+.dropdown-menu a {
+  color: black;
+  padding: 10px 20px;
+  text-decoration: none;
+  display: block;
+  font-size: 16px;
+  align-items: center;
+}
+
+.dropdown-menu a:hover {
+  background-color: #d3d3d3;
+}
+
+/* Show the dropdown menu on button click */
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+/* Add a transition for smooth dropdown */
+.dropdown-menu {
+  transition: all 0.3s ease;
+}
+
+/* Preview Button */
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.852);
+  padding-top: 60px;
+}
+
+/* Modal Content */
+.modal-content {
+  background-color: #ffffff00;
+  margin: 1% auto;
+  padding: 3px; 
+  border: 1px solid #888;
+  width: 1000px; 
+  height: 500px; 
+  overflow: hidden; 
+  display: flex; 
+  align-items: center; 
+  justify-content: center; 
+  position: relative; 
+  transition: opacity 0.5s ease, visibility 0s 0.5s;
+  animation: fadeIn 0.5s ease-in-out;
+}
+/* Ensure the image is displayed properly */
+.modal-content img {
+  background-color: rgba(0, 255, 153, 0);
+  min-width: 300px; 
+  min-height: 100px; 
+  min-height: 300px; 
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+#modalContent {
+  background-color: rgba(255, 255, 0, 0);
+  margin-top: 50px;
+  width: 900px; 
+  height: 200px; 
+  display: flex; 
+  justify-content: center;
+  align-items: center;
+}
+#modalContent iframe{
+  background-color: rgba(255, 255, 0, 0);
+  min-width: 1000px; 
+  min-height: 48vh; 
+  display: flex; 
+  justify-content: center;
+  align-items: center;
+}
+#modalContent img {
+  background-color: rgba(0, 128, 0, 0);
+  width: 900px;
+  height: 350px;
+  object-fit: contain;
+}
+/* Close button */
+.close {
+  color: #aaa;
+  position: absolute; 
+  top: 10px; 
+  right: 10px; 
+  font-size: 28px;
+  font-weight: bold;
+  cursor: pointer; 
+}
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+/* Example styles for the buttons */
+.icon-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+.preview-button i {
+    font-size: 16px;
+}
+@media (max-width: 1700px) {
+/* Global Styles */
+body {
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  background-color: #ffffff;
+  display: block;
+  justify-content: center;
+  align-items: center;
+}
+
+.body-2 {
+  height: 100%;
+  width: 100%;
+  background-color: #ffffff;
+}
+
+.table-container {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.table-header, .table-row {
+    display: flex;
+    width: 100%;
+}
+
+.table-header {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+
+.table-header-cell, .table-cell {
+    flex: 1;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    box-sizing: border-box;
+}
+
+.table-row {
+    cursor: pointer;
+}
+
+.table-row:hover {
+    background-color: #f9f9f9;
+}
+
+/* Editor Styles */
+#editor {
+  margin-top: 70px;
+  margin-bottom: 50px;
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 0px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Container Styles */
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; 
+  height: 100vh; 
+  padding: 10px; 
+  box-sizing: border-box; 
+}
+
+.div-2, .file-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.edit-container {
+  background-color: rgb(202, 202, 202);
+  padding: 10px;
+  height: 50%;
+  width: 70%;
+  border-radius: 5px;
+  border: 1px solid black;
+  margin-bottom: 20px;
+}
+
+.edit-options button {
+  display: block;
+  width: 100%;
+  border: none;
+  background: none;
+  text-align: left;
+}
+
+/* Image Gallery Styles */
+.image-gallery-content {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(50px, 1fr));
+  padding-left: 30px;
+  padding-right: 40px;
+  background-color: #ffffff;
+  box-shadow: 0 4px 8px rgb(0, 0, 0);
+  min-height: 700px;
+  overflow-y: auto;
+  border-radius: 8px;
+  margin-top: 10px;
+}
+
+.image-container {
+  background-color: #ffffff;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  text-align: center;
+  transition: transform 0.3s;
+}
+
+.image-container:hover {
+  transform: scale(1.02);
+}
+
+.gallery-image {
+  width: 100%;
+  height: 10px; 
+  object-fit: cover; 
+  background-color: rgba(0, 0, 0, 0);
+}
+
+/* Image Gallery Modal Styles */
+#imageGallery {
+  display: none;
+  position: fixed;
+  top: 10px;
+  left: 230px;
+  width: 70%;
+  min-height: 90%;
+   background-color: #ff00d000;
+  z-index: 9999;
+  overflow: auto;
+}
+
+#imageGalleryContent {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  gap: 30px; 
+  padding-top: 10px;
+  padding-bottom: 60px; 
+  background-color: #ffffff;
+  background: linear-gradient(145deg, #ffffff, #f1f1f1);
+  box-shadow: 
+        0px 5px 40px rgba(0, 0, 0, 0.151), 
+        inset 0px 5px 20px rgba(0, 0, 0, 0.381); 
+  border: 1px solid rgb(154, 154, 154);
+  border-radius: 10px;
+  margin-top: 80px;
+  min-height: calc(75vh - 130px); 
+  min-width: 90%;
+  overflow-y: auto; 
+}
+
+#imageGalleryContent::after {
+  content: "";
+  display: block;
+  height: 40px; 
+}
+
+#closeImageGallery {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  background-color: rgba(0, 255, 4, 0);
+  color: rgb(0, 0, 0);
+  border: 2px solid rgb(218, 218, 218);
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+#closeImageGallery:hover {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+  border: 2px solid rgb(0, 0, 0);
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+ 
+.folder-icon {
+  margin-top: 1px;
+  width: 100%;
+  height: 100px;
+  background: url('fileManager/imageIcons/folder.png') no-repeat center center;
+  background-size: contain;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none; 
+}
+/* PDF Icon */
+.pdf-icon {
+  width: 100%;
+  height: 100px;
+  background: url('fileManager/imageIcons/pdfFILE.png') no-repeat center center;
+  background-size: contain;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+}
+
+/* TXT Icon */
+.txt-icon {
+  width: 100%;
+  height: 100px;
+  background: url('fileManager/imageIcons/txt.png') no-repeat center center;
+  background-size: contain;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none; 
+}
+
+/* XLSX Icon */
+.xlsx-icon {
+  width: 100%;
+  height: 100px;
+  background: url('fileManager/imageIcons/xlsx.png') no-repeat center center;
+  background-size: contain;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none; 
+}
+.mp3-icon {
+  width: 100%;
+  height: 100px;
+  background: url('fileManager/imageIcons/mp3\ \(1\).png') no-repeat center center;
+  background-size: contain;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none; 
+}
+.mp4-icon {
+  width: 100%;
+  height: 100px;
+  background: url('fileManager/imageIcons/mp4.png') no-repeat center center;
+  background-size: contain;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none; 
+}
+.file-icon {
+  width: 100%;
+  height: 100px;
+  background: url('fileManager/imageIcons/random.png') no-repeat center center;
+  background-size: contain;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+}
+.docx-icon {
+  width: 65%;
+  height: 100px;
+  background: url('fileManager/imageIcons/doc.png') no-repeat center center;
+  background-size: contain;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+}
+
+.pdf-icon,
+ .txt-icon,
+ .xlsx-icon,
+ .folder-icon,
+ .mp3-icon,
+ .mp4-icon,
+ .file-icon {
+  min-width: 120px;
+ }
+
+.file-icon a {
+  margin-bottom: 20px;
+  min-width: 150px;
+  height: 100px;
+}
+.icon-button {
+  background: none;
+  border: none;
+  color: #333;
+  cursor: pointer;
+  font-size: 16px;
+  padding: 5px;
+  margin: 5px;
+  transition: color 0.3s;
+}
+.icon-buttons {
+  background-color: rgb(255, 255, 255); 
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  margin-top: 10px; 
+}
+
+.inline-droppable-div {
+  display: inline-block;
+  border: 1px solid #000;
+  padding: 10px;
+  min-height: 50px;
+  min-width: 100px;
+  resize: both;
+  overflow: auto; 
+  vertical-align: middle; 
+} 
+/* Style for images and file icons */
+.file-container img,
+.file-container {
+  max-width: 100%;
+  height: 80px; 
+  object-fit: contain; 
+  margin-bottom: 10px;
+}
+/* Container for each file item */
+.file-container {
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  align-items: center;
+  justify-items: center;
+  border: 1px solid #c1c1c1;
+  background-color: rgb(255, 255, 255);
+  border-radius: 8px;
+  padding-right: 10px;
+  padding-left: 10px;
+  padding-top: 10px;
+  height: 180px; 
+  width: 150px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0);
+  overflow: hidden;
+  transition: opacity 0.3s ease, visibility 0s 0.3s;
+  animation: fadeIn 0.5s ease-in-out;
+}
+.back-button {
+  display: grid;
+  grid-template-rows: auto 1fr auto; 
+  align-items: center;
+  justify-items: center;
+  border: 1px solid #c1c1c100;
+  background-color: rgba(255, 255, 255, 0);
+  border-radius: 8px;
+  padding-right: 10px;
+  padding-left: 10px;
+  padding-top: 10px;
+  height: 180px; 
+  width: 150px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0);
+  overflow: hidden;
+}
+.back-button img {
+  display: block; 
+  width: 70px;
+  cursor: pointer;
+  margin-top: 70px;
+}
+.file-container:hover {
+  display: grid;
+  grid-template-rows: auto 1fr auto; 
+  align-items: center;
+  justify-items: center;
+  border: 1.5px solid #0000006e;
+  background-color: rgb(255, 255, 255);
+  border-radius: 8px;
+  box-shadow: 
+    inset 0 4px 8px rgba(0, 0, 0, 0.422); 
+}
+
+
+.file-container .file-name {
+  margin: 10px 0;
+  text-align: center;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.file-container .icon-buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.file-container .icon-buttons button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 16px; 
+}
+
+.file-container .icon-buttons button:hover {
+  color: #007bff; 
+}
+
+/* Container for all file items */
+.file-container-wrapper {
+  display: flex;
+  flex-direction: column; 
+  align-items: center; 
+  gap: 20px; 
+  padding: 20px;
+  width: 100%;
+}
+
+/* File name styling */
+.file-name {
+  height: 20px;
+  display: left;
+  justify-content: center;
+  align-items: left;
+  text-align: left;
+  overflow: hidden;
+  white-space: nowrap; 
+  text-overflow: ellipsis; 
+  width: 100%;
+}
+
+.file-name p {
+  margin: 0;
+  padding: 0 10px; 
+  font-family: monospace;
+    margin-top: 10px;
+    font-size: 20px;
+    color: #000000;
+    white-space: nowrap; 
+    overflow: hidden;    
+    text-overflow: ellipsis; 
+    width: 150px;
+}
+
+/* Container for buttons */
+.icon-buttons {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-self: baseline;
+  margin-top: auto; 
+}
+
+/* Style for individual buttons */
+.icon-buttons button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  color: #007bff; 
+}
+
+.icon-buttons button:hover {
+  color: #0056b3; 
+}
+/* Search Bar Styles */
+.search-bar {
+  position: absolute;
+  top: 20px;
+  right: 200px; 
+  background-color: rgba(0, 0, 0, 0); 
+  color: rgb(0, 0, 0); 
+  border: 2px solid rgb(218, 218, 218); 
+  border-radius: 5px;
+  padding: 10px; 
+  font-size: 16px; 
+  cursor: pointer; 
+  width: 200px; 
+}
+.search-bar:hover {
+  position: absolute;
+  top: 20px;
+  right: 200px; 
+  background-color: rgba(0, 0, 0, 0);
+  color: rgb(0, 0, 0); /* White text */
+  border: 2px solid rgb(154, 153, 153); 
+  border-radius: 5px; 
+  padding: 10px; 
+  font-size: 16px; 
+  cursor: pointer; 
+  width: 200px; 
+}
+/* Style for the refresh button */
+#refresh {
+  position: absolute;
+  top: 20px;
+  right: 430px;
+  background-color: rgba(0, 0, 0, 0); 
+  color: rgb(0, 0, 0); 
+  border: 2px solid rgb(218, 218, 218); 
+  border-radius: 5px; 
+  padding: 10px;
+  font-size: 16px; 
+  cursor: pointer; 
+  width: 50px; 
+  transition: background-color 0.3s, border-color 0.3s; 
+}
+
+/* Hover effect for the refresh button */
+#refresh:hover {
+  background-color: rgb(0, 0, 0); 
+  color: white; 
+  border: 2px solid rgb(0, 0, 0); 
+}
+
+/* Hover effect specifically for the icon inside the button */
+#refresh:hover i {
+  color: white; 
+}
+
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #ffffff;
+  min-width: 50px;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  border-radius: 5px;
+  padding: 10px 0;
+}
+/* Dropdown Button */
+.dropdown {
+  position: absolute;
+  top: 20px;
+  right: 90px;
+}
+
+.btn-secondary { 
+  color: rgb(0, 0, 0); 
+  border: 2px solid rgb(218, 218, 218); 
+  background-color: rgba(255, 0, 0, 0);
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: 0.5s;
+  min-width: 100px;
+  min-height: 20px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  display: inline;
+}
+
+.btn-secondary:hover {
+  color: rgb(255, 255, 255); 
+  background-color: black;
+  border: 2px solid rgb(0, 0, 0); 
+}
+.sortImg {
+  width: 19px;
+  height: 19px;
+  margin-right: 5px;
+  vertical-align: middle; 
+}
+/* Change image on hover */
+.btn-secondary:hover .sortImg {
+  content: url('fileManager/imageIcons/sortChange.png');
+}
+/* Dropdown Menu */
+.dropdown-menu {
+  display: none;
+  position: absolute;
+  background-color: #f8f9fa;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  border-radius: 5px;
+  padding: 10px 0;
+  min-width: 100px;
+  font-family: monospace;
+  text-align: center;
+}
+
+.dropdown-menu a {
+  color: black;
+  padding: 10px 20px;
+  text-decoration: none;
+  display: block;
+  font-size: 16px;
+  align-items: center;
+}
+
+.dropdown-menu a:hover {
+  background-color: #d3d3d3;
+}
+
+/* Show the dropdown menu on button click */
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+/* Add a transition for smooth dropdown */
+.dropdown-menu {
+  transition: all 0.3s ease;
+}
+
+/* Preview Button */
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.852);
+  padding-top: 60px;
+}
+
+
+/* Modal Content */
+.modal-content {
+  background-color: #ffffff;
+  margin: 1% auto;
+  padding: 10px; 
+  border: 1px solid #888;
+  width: 1000px; 
+  height: 500px; 
+  overflow: hidden; 
+  display: flex; 
+  align-items: center; 
+  justify-content: center; 
+  position: relative; 
+  transition: opacity 0.5s ease, visibility 0s 0.5s;
+  animation: fadeIn 0.5s ease-in-out;
+}
+/* Ensure the image is displayed properly */
+.modal-content img {
+  background-color: rgba(0, 255, 153, 0);
+  max-width: 100%; 
+  max-height: 100%; 
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+#modalContent {
+  width: 100%; 
+  height: 100%; 
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+  padding: 20px;
+}
+#modalContent img {
+  max-width: 93%;
+  min-height: 70%; 
+  width: auto; 
+  height: auto; 
+  object-fit: contain;
+}
+#modalContent iframe{
+  background-color: rgba(255, 255, 0, 0);
+  min-width: 1000px; 
+  min-height: 48vh; 
+  display: flex; 
+  justify-content: center;
+  align-items: center;
+}
+/* Close button */
+.close {
+  color: #aaa;
+  position: absolute; 
+  top: 10px; 
+  right: 10px; 
+  font-size: 28px;
+  font-weight: bold;
+  cursor: pointer; 
+}
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+/* Example styles for the buttons */
+.icon-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+.preview-button i {
+    font-size: 16px;
+}
+}
+@media (max-width: 1080px) {
+  /*overlay*/
+.overlay {
+  position: absolute; /* Positions the overlay relative to the container */
+  margin-top: 420px; /* Aligns overlay to the top */
+  margin-left: 0px; /* Aligns overlay to the left */
+  width: 65.5%; /* Full width of the parent */
+  height: 39px; /* Full height of the parent */
+  border-radius: 0px 0px 20px 20px;
+  background-color: rgb(255, 255, 255); /* Semi-transparent overlay */
+  color: white;
+  display: flex;
+  justify-content: center; /* Centers content horizontally */
+  align-items: center; 
+  z-index: 2;
+}
+}
+@media (max-width: 720px) {
+  /*overlay*/
+.overlay {
+  position: absolute; /* Positions the overlay relative to the container */
+  margin-top: 470px; /* Aligns overlay to the top */
+  margin-left: 0px; /* Aligns overlay to the left */
+  width: 65.5%; /* Full width of the parent */
+  height: 39px; /* Full height of the parent */
+  border-radius: 0px 0px 20px 20px;
+  background-color: rgb(255, 255, 255); /* Semi-transparent overlay */
+  color: white;
+  display: flex;
+  justify-content: center; /* Centers content horizontally */
+  align-items: center; 
+  z-index: 2;
+}
+}
+@media (max-width: 570px) {
+  /*overlay*/
+.overlay {
+  position: absolute; /* Positions the overlay relative to the container */
+  margin-top: 520px; /* Aligns overlay to the top */
+  margin-left: 0px; /* Aligns overlay to the left */
+  width: 65.0%; /* Full width of the parent */
+  height: 39px; /* Full height of the parent */
+  border-radius: 0px 0px 20px 20px;
+  background-color: rgb(255, 255, 255); /* Semi-transparent overlay */
+  color: white;
+  display: flex;
+  justify-content: center; /* Centers content horizontally */
+  align-items: center; 
+  z-index: 2;
+}
+}

@@ -1,0 +1,38 @@
+Folders: Array
+(
+    [0] => C:/xampp/htdocs/MyMCE/file-web/CDN/LI_123
+    [1] => C:/xampp/htdocs/MyMCE/file-web/CDN/Plane Image
+    [2] => C:/xampp/htdocs/MyMCE/file-web/CDN/Week_2
+)
+
+Files: Array
+(
+    [0] => C:/xampp/htdocs/MyMCE/file-web/CDN/Screenshot 2024-02-21 004608.png
+    [1] => C:/xampp/htdocs/MyMCE/file-web/CDN/Screenshot 2024-02-21 174023.png
+    [2] => C:/xampp/htdocs/MyMCE/file-web/CDN/Screenshot 2024-03-07 173844.png
+    [3] => C:/xampp/htdocs/MyMCE/file-web/CDN/Text Editor.pdf
+    [4] => C:/xampp/htdocs/MyMCE/file-web/CDN/X-Plane Installer Log.txt
+    [5] => C:/xampp/htdocs/MyMCE/file-web/CDN/CUSTOMER DATABASE.xlsx
+    [6] => C:/xampp/htdocs/MyMCE/file-web/CDN/file_example_MP3_5MG.mp3
+    [7] => C:/xampp/htdocs/MyMCE/file-web/CDN/myRecord.mp4
+)
+
+Folders: Array
+(
+    [0] => C:/xampp/htdocs/MyMCE/file-web/CDN/LI_123
+    [1] => C:/xampp/htdocs/MyMCE/file-web/CDN/Plane Image
+    [2] => C:/xampp/htdocs/MyMCE/file-web/CDN/Week_2
+)
+
+Files: Array
+(
+    [0] => C:/xampp/htdocs/MyMCE/file-web/CDN/Screenshot 2024-02-21 004608.png
+    [1] => C:/xampp/htdocs/MyMCE/file-web/CDN/Screenshot 2024-02-21 174023.png
+    [2] => C:/xampp/htdocs/MyMCE/file-web/CDN/Screenshot 2024-03-07 173844.png
+    [3] => C:/xampp/htdocs/MyMCE/file-web/CDN/Text Editor.pdf
+    [4] => C:/xampp/htdocs/MyMCE/file-web/CDN/X-Plane Installer Log.txt
+    [5] => C:/xampp/htdocs/MyMCE/file-web/CDN/CUSTOMER DATABASE.xlsx
+    [6] => C:/xampp/htdocs/MyMCE/file-web/CDN/file_example_MP3_5MG.mp3
+    [7] => C:/xampp/htdocs/MyMCE/file-web/CDN/myRecord.mp4
+)
+

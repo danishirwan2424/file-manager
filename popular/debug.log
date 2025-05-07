@@ -1,0 +1,698 @@
+2024-09-02 11:09:46 - Received data: 
+2024-09-02 11:09:46 - Invalid input data
+2024-09-02 11:09:53 - Received data: 
+2024-09-02 11:09:53 - Invalid input data
+2024-09-02 11:29:39 - Received data: Array
+(
+    [filePaths] => Array
+        (
+            [0] => Date.xlsx
+        )
+
+)
+
+2024-09-02 11:29:39 - Attempting to delete: C:/xampp/htdocs/MyMCE/file-web/CDN/Date.xlsx
+2024-09-02 11:29:39 - Successfully deleted file: C:/xampp/htdocs/MyMCE/file-web/CDN/Date.xlsx
+2024-09-02 11:31:36 - Received data: Array
+(
+    [filePaths] => Array
+        (
+            [0] => image/
+        )
+
+)
+
+2024-09-02 11:31:36 - Attempting to delete: C:/xampp/htdocs/MyMCE/file-web/CDN/image/
+2024-09-02 11:31:36 - Successfully deleted directory: C:/xampp/htdocs/MyMCE/file-web/CDN/image/
+2024-09-02 11:31:45 - Received data: Array
+(
+    [filePaths] => Array
+        (
+            [0] => image/
+        )
+
+)
+
+2024-09-02 11:31:45 - Attempting to delete: C:/xampp/htdocs/MyMCE/file-web/CDN/image/
+2024-09-02 11:31:45 - Path does not exist: C:/xampp/htdocs/MyMCE/file-web/CDN/image/
+2024-09-02 11:31:52 - Received data: Array
+(
+    [filePaths] => Array
+        (
+            [0] => image/
+        )
+
+)
+
+2024-09-02 11:31:52 - Attempting to delete: C:/xampp/htdocs/MyMCE/file-web/CDN/image/
+2024-09-02 11:31:52 - Path does not exist: C:/xampp/htdocs/MyMCE/file-web/CDN/image/
+2024-09-02 11:31:56 - Received data: Array
+(
+    [filePaths] => Array
+        (
+            [0] => Plane Image/
+        )
+
+)
+
+2024-09-02 11:31:56 - Attempting to delete: C:/xampp/htdocs/MyMCE/file-web/CDN/Plane Image/
+2024-09-02 11:31:56 - Successfully deleted directory: C:/xampp/htdocs/MyMCE/file-web/CDN/Plane Image/
+2024-09-02 11:35:50 - Received data: Array
+(
+    [filePaths] => Array
+        (
+            [0] => CUSTOMER DATABASE.xlsx
+        )
+
+)
+
+2024-09-02 11:35:50 - Attempting to delete: C:/xampp/htdocs/MyMCE/file-web/CDN/CUSTOMER DATABASE.xlsx
+2024-09-02 11:35:50 - Successfully deleted file: C:/xampp/htdocs/MyMCE/file-web/CDN/CUSTOMER DATABASE.xlsx
+2024-09-02 11:36:08 - Received data: Array
+(
+    [filePaths] => Array
+        (
+            [0] => Text Editor.pdf
+        )
+
+)
+
+2024-09-02 11:36:08 - Attempting to delete: C:/xampp/htdocs/MyMCE/file-web/CDN/Text Editor.pdf
+2024-09-02 11:36:08 - Successfully deleted file: C:/xampp/htdocs/MyMCE/file-web/CDN/Text Editor.pdf
+2024-09-02 11:38:57 - Received data: Array
+(
+    [filePaths] => Array
+        (
+            [0] => MyPic/
+        )
+
+)
+
+2024-09-02 11:38:57 - Attempting to delete: C:/xampp/htdocs/MyMCE/file-web/CDN/MyPic/
+2024-09-02 11:38:57 - Successfully deleted directory: C:/xampp/htdocs/MyMCE/file-web/CDN/MyPic/
+2024-09-02 11:41:26 - Received data: Array
+(
+    [filePaths] => Array
+        (
+            [0] => DailyLogBook/
+        )
+
+)
+
+2024-09-02 11:41:26 - Attempting to delete: C:/xampp/htdocs/MyMCE/file-web/CDN/DailyLogBook/
+2024-09-02 11:41:26 - Successfully deleted directory: C:/xampp/htdocs/MyMCE/file-web/CDN/DailyLogBook/
+2024-09-03 04:29:50 - Received data: Array
+(
+    [filePaths] => Array
+        (
+            [0] => Screenshot 2024-03-25 213911.png
+        )
+
+)
+
+2024-09-03 04:29:50 - Attempting to delete: C:/xampp/htdocs/MyMCE/file-web/CDN/Screenshot 2024-03-25 213911.png
+2024-09-03 04:29:50 - Successfully deleted file: C:/xampp/htdocs/MyMCE/file-web/CDN/Screenshot 2024-03-25 213911.png
+2024-09-03 04:32:25 - Received data: Array
+(
+    [filePaths] => Array
+        (
+            [0] => Screenshot 2024-03-25 213740.png
+        )
+
+)
+
+2024-09-03 04:32:25 - Attempting to delete: C:/xampp/htdocs/MyMCE/file-web/CDN/Screenshot 2024-03-25 213740.png
+2024-09-03 04:32:25 - Successfully deleted file: C:/xampp/htdocs/MyMCE/file-web/CDN/Screenshot 2024-03-25 213740.png
+2024-09-03 04:32:30 - Received data: Array
+(
+    [filePaths] => Array
+        (
+            [0] => Screenshot 2024-03-25 213740.png
+        )
+
+)
+
+2024-09-03 04:32:30 - Attempting to delete: C:/xampp/htdocs/MyMCE/file-web/CDN/Screenshot 2024-03-25 213740.png
+2024-09-03 04:32:30 - Path does not exist: C:/xampp/htdocs/MyMCE/file-web/CDN/Screenshot 2024-03-25 213740.png
+2024-09-03 04:33:06 - Received data: Array
+(
+    [filePaths] => Array
+        (
+            [0] => Screenshot 2024-03-07 173844.png
+        )
+
+)
+
+2024-09-03 04:33:06 - Attempting to delete: C:/xampp/htdocs/MyMCE/file-web/CDN/Screenshot 2024-03-07 173844.png
+2024-09-03 04:33:06 - Successfully deleted file: C:/xampp/htdocs/MyMCE/file-web/CDN/Screenshot 2024-03-07 173844.png
+2024-09-03 04:35:37 - Received data: Array
+(
+    [filePaths] => Array
+        (
+            [0] => Screenshot 2024-02-21 174023.png
+        )
+
+)
+
+2024-09-03 04:35:37 - Attempting to delete: C:/xampp/htdocs/MyMCE/file-web/CDN/Screenshot 2024-02-21 174023.png
+2024-09-03 04:35:37 - Successfully deleted file: C:/xampp/htdocs/MyMCE/file-web/CDN/Screenshot 2024-02-21 174023.png
+2024-09-03 04:36:57 - Received data: Array
+(
+    [filePaths] => Array
+        (
+            [0] => Screenshot 2024-02-21 004608.png
+        )
+
+)
+
+2024-09-03 04:36:57 - Attempting to delete: C:/xampp/htdocs/MyMCE/file-web/CDN/Screenshot 2024-02-21 004608.png
+2024-09-03 04:36:57 - Successfully deleted file: C:/xampp/htdocs/MyMCE/file-web/CDN/Screenshot 2024-02-21 004608.png
+2024-09-03 04:39:06 - Received data: Array
+(
+    [filePaths] => Array
+        (
+            [0] => images.jpg
+        )
+
+)
+
+2024-09-03 04:39:06 - Attempting to delete: C:/xampp/htdocs/MyMCE/file-web/CDN/images.jpg
+2024-09-03 04:39:06 - Successfully deleted file: C:/xampp/htdocs/MyMCE/file-web/CDN/images.jpg
+2024-09-03 04:43:45 - Received data: Array
+(
+    [filePaths] => Array
+        (
+            [0] => Screenshot 2024-08-05 102559.png
+        )
+
+)
+
+2024-09-03 04:43:45 - Attempting to delete: C:/xampp/htdocs/MyMCE/file-web/CDN/Screenshot 2024-08-05 102559.png
+2024-09-03 04:43:45 - Successfully deleted file: C:/xampp/htdocs/MyMCE/file-web/CDN/Screenshot 2024-08-05 102559.png
+2024-09-03 04:44:46 - Received data: Array
+(
+    [filePaths] => Array
+        (
+            [0] => Screenshot 2024-08-05 112712.png
+        )
+
+)
+
+2024-09-03 04:44:46 - Attempting to delete: C:/xampp/htdocs/MyMCE/file-web/CDN/Screenshot 2024-08-05 112712.png
+2024-09-03 04:44:46 - Successfully deleted file: C:/xampp/htdocs/MyMCE/file-web/CDN/Screenshot 2024-08-05 112712.png
+2024-09-03 04:45:01 - Received data: Array
+(
+    [filePaths] => Array
+        (
+            [0] => Screenshot 2024-08-09 164551.png
+        )
+
+)
+
+2024-09-03 04:45:01 - Attempting to delete: C:/xampp/htdocs/MyMCE/file-web/CDN/Screenshot 2024-08-09 164551.png
+2024-09-03 04:45:01 - Successfully deleted file: C:/xampp/htdocs/MyMCE/file-web/CDN/Screenshot 2024-08-09 164551.png
+2024-09-03 04:45:04 - Received data: Array
+(
+    [filePaths] => Array
+        (
+            [0] => Screenshot 2024-08-09 164551.png
+        )
+
+)
+
+2024-09-03 04:45:04 - Attempting to delete: C:/xampp/htdocs/MyMCE/file-web/CDN/Screenshot 2024-08-09 164551.png
+2024-09-03 04:45:04 - Path does not exist: C:/xampp/htdocs/MyMCE/file-web/CDN/Screenshot 2024-08-09 164551.png
+2024-09-03 04:51:13 - Received data: Array
+(
+    [filePaths] => Array
+        (
+            [0] => Screenshot 2024-08-19 001421.png
+        )
+
+)
+
+2024-09-03 04:51:13 - Attempting to delete: C:/xampp/htdocs/MyMCE/file-web/CDN/Screenshot 2024-08-19 001421.png
+2024-09-03 04:51:13 - Successfully deleted file: C:/xampp/htdocs/MyMCE/file-web/CDN/Screenshot 2024-08-19 001421.png
+2024-09-03 04:51:15 - Received data: Array
+(
+    [filePaths] => Array
+        (
+            [0] => Screenshot 2024-08-19 001421.png
+        )
+
+)
+
+2024-09-03 04:51:15 - Attempting to delete: C:/xampp/htdocs/MyMCE/file-web/CDN/Screenshot 2024-08-19 001421.png
+2024-09-03 04:51:15 - Path does not exist: C:/xampp/htdocs/MyMCE/file-web/CDN/Screenshot 2024-08-19 001421.png
+2024-09-03 04:52:58 - Received data: Array
+(
+    [filePaths] => Array
+        (
+            [0] => Screenshot 2024-08-16 111011.png
+        )
+
+)
+
+2024-09-03 04:52:58 - Attempting to delete: C:/xampp/htdocs/MyMCE/file-web/CDN/Screenshot 2024-08-16 111011.png
+2024-09-03 04:52:58 - Successfully deleted file: C:/xampp/htdocs/MyMCE/file-web/CDN/Screenshot 2024-08-16 111011.png
+2024-09-03 04:53:01 - Received data: Array
+(
+    [filePaths] => Array
+        (
+            [0] => Screenshot 2024-08-16 111011.png
+        )
+
+)
+
+2024-09-03 04:53:01 - Attempting to delete: C:/xampp/htdocs/MyMCE/file-web/CDN/Screenshot 2024-08-16 111011.png
+2024-09-03 04:53:01 - Path does not exist: C:/xampp/htdocs/MyMCE/file-web/CDN/Screenshot 2024-08-16 111011.png
+2024-09-03 05:15:49 - Received data: Array
+(
+    [filePaths] => Array
+        (
+            [0] => Created/
+        )
+
+)
+
+2024-09-03 05:15:49 - Attempting to delete: C:/xampp/htdocs/MyMCE/file-web/CDN/Created/
+2024-09-03 05:15:49 - Successfully deleted directory: C:/xampp/htdocs/MyMCE/file-web/CDN/Created/
+2024-09-03 05:25:22 - Received data: Array
+(
+    [filePaths] => Array
+        (
+            [0] => Screenshot 2024-02-21 004608.png
+        )
+
+)
+
+2024-09-03 05:25:22 - Attempting to delete: C:/xampp/htdocs/MyMCE/file-web/CDN/Screenshot 2024-02-21 004608.png
+2024-09-03 05:25:22 - Successfully deleted file: C:/xampp/htdocs/MyMCE/file-web/CDN/Screenshot 2024-02-21 004608.png
+2024-09-03 05:26:01 - Received data: Array
+(
+    [filePaths] => Array
+        (
+            [0] => Screenshot 2024-02-21 174023.png
+        )
+
+)
+
+2024-09-03 05:26:01 - Attempting to delete: C:/xampp/htdocs/MyMCE/file-web/CDN/Screenshot 2024-02-21 174023.png
+2024-09-03 05:26:01 - Successfully deleted file: C:/xampp/htdocs/MyMCE/file-web/CDN/Screenshot 2024-02-21 174023.png
+2024-09-03 05:26:04 - Received data: Array
+(
+    [filePaths] => Array
+        (
+            [0] => Screenshot 2024-02-21 174023.png
+        )
+
+)
+
+2024-09-03 05:26:04 - Attempting to delete: C:/xampp/htdocs/MyMCE/file-web/CDN/Screenshot 2024-02-21 174023.png
+2024-09-03 05:26:04 - Path does not exist: C:/xampp/htdocs/MyMCE/file-web/CDN/Screenshot 2024-02-21 174023.png
+2024-09-03 05:34:56 - Received data: Array
+(
+    [filePaths] => Array
+        (
+            [0] => images.jpg
+        )
+
+)
+
+2024-09-03 05:34:56 - Attempting to delete: C:/xampp/htdocs/MyMCE/file-web/CDN/images.jpg
+2024-09-03 05:34:56 - Successfully deleted file: C:/xampp/htdocs/MyMCE/file-web/CDN/images.jpg
+2024-09-03 05:34:58 - Received data: Array
+(
+    [filePaths] => Array
+        (
+            [0] => images.jpg
+        )
+
+)
+
+2024-09-03 05:34:58 - Attempting to delete: C:/xampp/htdocs/MyMCE/file-web/CDN/images.jpg
+2024-09-03 05:34:58 - Path does not exist: C:/xampp/htdocs/MyMCE/file-web/CDN/images.jpg
+2024-09-03 05:40:29 - Received data: Array
+(
+    [filePaths] => Array
+        (
+            [0] => Screenshot 2024-03-07 173844.png
+        )
+
+)
+
+2024-09-03 05:40:29 - Attempting to delete: C:/xampp/htdocs/MyMCE/file-web/CDN/Screenshot 2024-03-07 173844.png
+2024-09-03 05:40:29 - Successfully deleted file: C:/xampp/htdocs/MyMCE/file-web/CDN/Screenshot 2024-03-07 173844.png
+2024-09-03 06:06:42 - Received data: Array
+(
+    [filePaths] => Array
+        (
+            [0] => Screenshot 2024-03-25 222313.png
+        )
+
+)
+
+2024-09-03 06:06:42 - Attempting to delete: C:/xampp/htdocs/MyMCE/file-web/CDN/Screenshot 2024-03-25 222313.png
+2024-09-03 06:06:42 - Successfully deleted file: C:/xampp/htdocs/MyMCE/file-web/CDN/Screenshot 2024-03-25 222313.png
+2024-09-03 06:06:49 - Received data: Array
+(
+    [filePaths] => Array
+        (
+            [0] => Screenshot 2024-03-25 222313.png
+        )
+
+)
+
+2024-09-03 06:06:49 - Attempting to delete: C:/xampp/htdocs/MyMCE/file-web/CDN/Screenshot 2024-03-25 222313.png
+2024-09-03 06:06:49 - Path does not exist: C:/xampp/htdocs/MyMCE/file-web/CDN/Screenshot 2024-03-25 222313.png
+2024-09-03 06:09:09 - Received data: Array
+(
+    [filePaths] => Array
+        (
+            [0] => Screenshot 2024-03-25 222241.png
+        )
+
+)
+
+2024-09-03 06:09:09 - Attempting to delete: C:/xampp/htdocs/MyMCE/file-web/CDN/Screenshot 2024-03-25 222241.png
+2024-09-03 06:09:09 - Successfully deleted file: C:/xampp/htdocs/MyMCE/file-web/CDN/Screenshot 2024-03-25 222241.png
+2024-09-03 06:09:13 - Received data: Array
+(
+    [filePaths] => Array
+        (
+            [0] => Screenshot 2024-03-25 222241.png
+        )
+
+)
+
+2024-09-03 06:09:13 - Attempting to delete: C:/xampp/htdocs/MyMCE/file-web/CDN/Screenshot 2024-03-25 222241.png
+2024-09-03 06:09:13 - Path does not exist: C:/xampp/htdocs/MyMCE/file-web/CDN/Screenshot 2024-03-25 222241.png
+2024-09-03 06:09:54 - Received data: Array
+(
+    [filePaths] => Array
+        (
+            [0] => Screenshot 2024-03-25 222224.png
+        )
+
+)
+
+2024-09-03 06:09:54 - Attempting to delete: C:/xampp/htdocs/MyMCE/file-web/CDN/Screenshot 2024-03-25 222224.png
+2024-09-03 06:09:54 - Successfully deleted file: C:/xampp/htdocs/MyMCE/file-web/CDN/Screenshot 2024-03-25 222224.png
+2024-09-03 06:10:11 - Received data: Array
+(
+    [filePaths] => Array
+        (
+            [0] => Screenshot 2024-03-25 222157.png
+        )
+
+)
+
+2024-09-03 06:10:11 - Attempting to delete: C:/xampp/htdocs/MyMCE/file-web/CDN/Screenshot 2024-03-25 222157.png
+2024-09-03 06:10:11 - Successfully deleted file: C:/xampp/htdocs/MyMCE/file-web/CDN/Screenshot 2024-03-25 222157.png
+2024-09-03 06:11:42 - Received data: Array
+(
+    [filePaths] => Array
+        (
+            [0] => Screenshot 2024-03-25 213911.png
+        )
+
+)
+
+2024-09-03 06:11:42 - Attempting to delete: C:/xampp/htdocs/MyMCE/file-web/CDN/Screenshot 2024-03-25 213911.png
+2024-09-03 06:11:42 - Successfully deleted file: C:/xampp/htdocs/MyMCE/file-web/CDN/Screenshot 2024-03-25 213911.png
+2024-09-03 06:13:49 - Received data: Array
+(
+    [filePaths] => Array
+        (
+            [0] => Screenshot 2024-03-26 001744.png
+        )
+
+)
+
+2024-09-03 06:13:49 - Attempting to delete: C:/xampp/htdocs/MyMCE/file-web/CDN/Screenshot 2024-03-26 001744.png
+2024-09-03 06:13:49 - Successfully deleted file: C:/xampp/htdocs/MyMCE/file-web/CDN/Screenshot 2024-03-26 001744.png
+2024-09-03 06:16:14 - Received data: Array
+(
+    [filePath] => Screenshot 2024-03-26 001737.png
+)
+
+2024-09-03 06:16:14 - Invalid input data
+2024-09-03 06:16:31 - Received data: Array
+(
+    [filePath] => images.jpg
+)
+
+2024-09-03 06:16:31 - Invalid input data
+2024-09-03 06:18:46 - Received data: Array
+(
+    [filePaths] => Array
+        (
+            [0] => images.jpg
+        )
+
+)
+
+2024-09-03 06:18:46 - Attempting to delete: C:/xampp/htdocs/MyMCE/file-web/CDN/images.jpg
+2024-09-03 06:18:46 - Successfully deleted file: C:/xampp/htdocs/MyMCE/file-web/CDN/images.jpg
+2024-09-03 06:18:48 - Received data: Array
+(
+    [filePaths] => Array
+        (
+            [0] => images.jpg
+        )
+
+)
+
+2024-09-03 06:18:48 - Attempting to delete: C:/xampp/htdocs/MyMCE/file-web/CDN/images.jpg
+2024-09-03 06:18:48 - Path does not exist: C:/xampp/htdocs/MyMCE/file-web/CDN/images.jpg
+2024-09-03 06:20:28 - Received data: Array
+(
+    [filePaths] => Array
+        (
+            [0] => Screenshot 2024-02-21 004608.png
+        )
+
+)
+
+2024-09-03 06:20:28 - Attempting to delete: C:/xampp/htdocs/MyMCE/file-web/CDN/Screenshot 2024-02-21 004608.png
+2024-09-03 06:20:28 - Successfully deleted file: C:/xampp/htdocs/MyMCE/file-web/CDN/Screenshot 2024-02-21 004608.png
+2024-09-03 06:20:31 - Received data: Array
+(
+    [filePaths] => Array
+        (
+            [0] => Screenshot 2024-02-21 004608.png
+        )
+
+)
+
+2024-09-03 06:20:31 - Attempting to delete: C:/xampp/htdocs/MyMCE/file-web/CDN/Screenshot 2024-02-21 004608.png
+2024-09-03 06:20:31 - Path does not exist: C:/xampp/htdocs/MyMCE/file-web/CDN/Screenshot 2024-02-21 004608.png
+2024-09-03 06:21:43 - Received data: Array
+(
+    [filePaths] => Array
+        (
+            [0] => Screenshot 2024-02-21 174023.png
+        )
+
+)
+
+2024-09-03 06:21:43 - Attempting to delete: C:/xampp/htdocs/MyMCE/file-web/CDN/Screenshot 2024-02-21 174023.png
+2024-09-03 06:21:43 - Successfully deleted file: C:/xampp/htdocs/MyMCE/file-web/CDN/Screenshot 2024-02-21 174023.png
+2024-09-03 06:21:49 - Received data: Array
+(
+    [filePaths] => Array
+        (
+            [0] => Screenshot 2024-02-21 174023.png
+        )
+
+)
+
+2024-09-03 06:21:49 - Attempting to delete: C:/xampp/htdocs/MyMCE/file-web/CDN/Screenshot 2024-02-21 174023.png
+2024-09-03 06:21:49 - Path does not exist: C:/xampp/htdocs/MyMCE/file-web/CDN/Screenshot 2024-02-21 174023.png
+2024-09-03 06:33:45 - Received data: Array
+(
+    [filePaths] => Array
+        (
+            [0] => Screenshot 2024-03-07 173844.png
+        )
+
+)
+
+2024-09-03 06:33:45 - Attempting to delete: C:/xampp/htdocs/MyMCE/file-web/CDN/Screenshot 2024-03-07 173844.png
+2024-09-03 06:33:45 - Successfully deleted file: C:/xampp/htdocs/MyMCE/file-web/CDN/Screenshot 2024-03-07 173844.png
+2024-09-03 06:37:03 - Received data: Array
+(
+    [filePaths] => Array
+        (
+            [0] => Screenshot 2024-03-26 001737.png
+        )
+
+)
+
+2024-09-03 06:37:03 - Attempting to delete: C:/xampp/htdocs/MyMCE/file-web/CDN/Screenshot 2024-03-26 001737.png
+2024-09-03 06:37:03 - Successfully deleted file: C:/xampp/htdocs/MyMCE/file-web/CDN/Screenshot 2024-03-26 001737.png
+2024-09-03 06:37:10 - Received data: Array
+(
+    [filePaths] => Array
+        (
+            [0] => Screenshot 2024-03-25 222346.png
+        )
+
+)
+
+2024-09-03 06:37:10 - Attempting to delete: C:/xampp/htdocs/MyMCE/file-web/CDN/Screenshot 2024-03-25 222346.png
+2024-09-03 06:37:10 - Successfully deleted file: C:/xampp/htdocs/MyMCE/file-web/CDN/Screenshot 2024-03-25 222346.png
+2024-09-03 06:38:07 - Received data: Array
+(
+    [filePaths] => Array
+        (
+            [0] => Screenshot 2024-03-25 222335.png
+        )
+
+)
+
+2024-09-03 06:38:07 - Attempting to delete: C:/xampp/htdocs/MyMCE/file-web/CDN/Screenshot 2024-03-25 222335.png
+2024-09-03 06:38:07 - Successfully deleted file: C:/xampp/htdocs/MyMCE/file-web/CDN/Screenshot 2024-03-25 222335.png
+2024-09-03 06:38:20 - Received data: Array
+(
+    [filePaths] => Array
+        (
+            [0] => Screenshot 2024-03-25 222326.png
+        )
+
+)
+
+2024-09-03 06:38:20 - Attempting to delete: C:/xampp/htdocs/MyMCE/file-web/CDN/Screenshot 2024-03-25 222326.png
+2024-09-03 06:38:20 - Successfully deleted file: C:/xampp/htdocs/MyMCE/file-web/CDN/Screenshot 2024-03-25 222326.png
+2024-09-03 06:38:32 - Received data: Array
+(
+    [filePaths] => Array
+        (
+            [0] => Screenshot 2024-03-25 222320.png
+        )
+
+)
+
+2024-09-03 06:38:32 - Attempting to delete: C:/xampp/htdocs/MyMCE/file-web/CDN/Screenshot 2024-03-25 222320.png
+2024-09-03 06:38:32 - Successfully deleted file: C:/xampp/htdocs/MyMCE/file-web/CDN/Screenshot 2024-03-25 222320.png
+2024-09-03 06:39:00 - Received data: Array
+(
+    [filePaths] => Array
+        (
+            [0] => image/back.jpg
+        )
+
+)
+
+2024-09-03 06:39:00 - Attempting to delete: C:/xampp/htdocs/MyMCE/file-web/CDN/image/back.jpg
+2024-09-03 06:39:00 - Successfully deleted file: C:/xampp/htdocs/MyMCE/file-web/CDN/image/back.jpg
+2024-09-03 06:47:32 - Received data: Array
+(
+    [filePaths] => Array
+        (
+            [0] => Screenshot 2024-03-26 002203.png
+        )
+
+)
+
+2024-09-03 06:47:32 - Attempting to delete: C:/xampp/htdocs/MyMCE/file-web/CDN/Screenshot 2024-03-26 002203.png
+2024-09-03 06:47:32 - Successfully deleted file: C:/xampp/htdocs/MyMCE/file-web/CDN/Screenshot 2024-03-26 002203.png
+2024-09-03 06:47:38 - Received data: Array
+(
+    [filePaths] => Array
+        (
+            [0] => voiceTake/
+        )
+
+)
+
+2024-09-03 06:47:38 - Attempting to delete: C:/xampp/htdocs/MyMCE/file-web/CDN/voiceTake/
+2024-09-03 06:47:38 - Successfully deleted directory: C:/xampp/htdocs/MyMCE/file-web/CDN/voiceTake/
+2024-09-03 11:43:27 - Received data: Array
+(
+    [filePaths] => Array
+        (
+            [0] => images.jpg
+        )
+
+)
+
+2024-09-03 11:43:27 - Attempting to delete: C:/xampp/htdocs/MyMCE/file-web/CDN/images.jpg
+2024-09-03 11:43:27 - Successfully deleted file: C:/xampp/htdocs/MyMCE/file-web/CDN/images.jpg
+2024-09-03 11:43:31 - Received data: Array
+(
+    [filePaths] => Array
+        (
+            [0] => voiceTake/
+        )
+
+)
+
+2024-09-03 11:43:31 - Attempting to delete: C:/xampp/htdocs/MyMCE/file-web/CDN/voiceTake/
+2024-09-03 11:43:31 - Successfully deleted directory: C:/xampp/htdocs/MyMCE/file-web/CDN/voiceTake/
+2024-09-04 03:32:32 - Received data: Array
+(
+    [filePaths] => Array
+        (
+            [0] => Screenshot 2024-03-25 222346.png
+        )
+
+)
+
+2024-09-04 03:32:32 - Attempting to delete: C:/xampp/htdocs/MyMCE/file-web/CDN/Screenshot 2024-03-25 222346.png
+2024-09-04 03:32:32 - Successfully deleted file: C:/xampp/htdocs/MyMCE/file-web/CDN/Screenshot 2024-03-25 222346.png
+2024-09-04 03:33:03 - Received data: Array
+(
+    [filePaths] => Array
+        (
+            [0] => MyFolder/
+        )
+
+)
+
+2024-09-04 03:33:03 - Attempting to delete: C:/xampp/htdocs/MyMCE/file-web/CDN/MyFolder/
+2024-09-04 03:33:03 - Successfully deleted directory: C:/xampp/htdocs/MyMCE/file-web/CDN/MyFolder/
+2024-09-24 16:28:54 - Received data: Array
+(
+    [filePaths] => Array
+        (
+            [0] => Screen Recording 2024-08-21 145125.mp4
+        )
+
+)
+
+2024-09-24 16:28:54 - Attempting to delete: C:/xampp/htdocs/MyMCE/file-web/CDN/Screen Recording 2024-08-21 145125.mp4
+2024-09-24 16:28:54 - Successfully deleted file: C:/xampp/htdocs/MyMCE/file-web/CDN/Screen Recording 2024-08-21 145125.mp4
+2024-09-24 16:28:57 - Received data: Array
+(
+    [filePaths] => Array
+        (
+            [0] => Screen Recording 2024-07-16 112939.mp4
+        )
+
+)
+
+2024-09-24 16:28:57 - Attempting to delete: C:/xampp/htdocs/MyMCE/file-web/CDN/Screen Recording 2024-07-16 112939.mp4
+2024-09-24 16:28:57 - Successfully deleted file: C:/xampp/htdocs/MyMCE/file-web/CDN/Screen Recording 2024-07-16 112939.mp4
+2024-09-24 17:27:25 - Received data: Array
+(
+    [filePaths] => Array
+        (
+            [0] => Screenshot 2024-03-25 222335.png
+        )
+
+)
+
+2024-09-24 17:27:25 - Attempting to delete: C:/xampp/htdocs/MyMCE/file-web/CDN/Screenshot 2024-03-25 222335.png
+2024-09-24 17:27:25 - Successfully deleted file: C:/xampp/htdocs/MyMCE/file-web/CDN/Screenshot 2024-03-25 222335.png
+2025-05-07 22:11:16 - Received data: Array
+(
+    [filePaths] => Array
+        (
+            [0] => adminii/
+        )
+
+)
+
+2025-05-07 22:11:16 - Attempting to delete: C:/xampp/htdocs/MyMCE/file-web/CDN/adminii/
+2025-05-07 22:11:16 - Successfully deleted directory: C:/xampp/htdocs/MyMCE/file-web/CDN/adminii/
