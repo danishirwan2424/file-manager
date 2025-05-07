@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # [Froala Editor V4](https://www.froala.com/wysiwyg-editor)
 
 [![Build Status](https://api.travis-ci.com/froala-labs/froala-editor-js-2.svg?token=RmiyW7AecDyQ8ja7VMDj&branch=master)](https://travis-ci.com/froala-labs/froala-editor-js-2)
@@ -225,3 +226,6 @@ If you have questions or need help integrating the editor please [contact us](ht
 ## Licensing
 
 In order to use the Froala Editor you have to purchase one of the following licenses according to your needs. You can find more about that on our website on the [pricing plan page](https://www.froala.com/wysiwyg-editor/pricing).
+=======
+# file-manager
+>>>>>>> 815689bbf595667c94330cda2ba8ffda292153a4
